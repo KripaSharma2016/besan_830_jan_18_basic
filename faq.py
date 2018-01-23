@@ -3,7 +3,7 @@ Created on Jan 8, 2018
 
 @author: kripa
 '''
-
+'''
 a = 50
 b = 100
 
@@ -25,3 +25,25 @@ my_info = {'name':'rohit'}
 
 result = age , name
 print(result)
+'''
+my_tuple = ()
+my_list = []
+
+
+print(my_tuple.__sizeof__())
+print(my_list.__sizeof__())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

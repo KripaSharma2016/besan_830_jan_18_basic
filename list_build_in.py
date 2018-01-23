@@ -3,7 +3,7 @@ Created on Jan 3, 2018
 
 @author: kripa
 '''
-l1 = []
+"""l1 = []
 print(type(l1))
 my_list  = list()
 print(my_list)
@@ -35,6 +35,44 @@ list_four.extend(list_one)
 list_four.extend(list_two)
 print(list_four)
 print(len(list_four))
+"""
+my_list = ['a','d','e','b','c']
+my_list.insert(1, 'f')
+print(my_list)
+my_list.pop()
+print(my_list)
+my_list.pop(1)
+print(my_list)
+my_list.sort()
+print(my_list)
+
+new_list = [[[1,2],3],4]
+print(new_list[0])
+print(new_list[1])
+print(new_list[0][0])
+print(new_list[0][0][0])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
